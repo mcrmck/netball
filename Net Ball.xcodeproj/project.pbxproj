@@ -52,7 +52,7 @@
 		4F5F2D99236664F700A5285C /* Net BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Net BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5F2D9D236664F700A5285C /* Net_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Net_BallUITests.swift; sourceTree = "<group>"; };
 		4F5F2D9F236664F700A5285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F5F2DAB2366683A00A5285C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = ../../Downloads/GameScene.sks; sourceTree = "<group>"; };
+		4F5F2DAB2366683A00A5285C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
