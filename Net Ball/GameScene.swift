@@ -13,6 +13,7 @@ class GameScene: SKScene {
     
     var player1: SKSpriteNode?
     var net: SKSpriteNode?
+    var ball: SKSpriteNode?
     var touchPosition = CGPoint()
     var angle = CGFloat()
     var p1desPos = CGPoint()
@@ -24,6 +25,18 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         player1 = self.childNode(withName: "player1") as? SKSpriteNode
         net = self.childNode(withName: "net") as? SKSpriteNode
+        ball = self.childNode(withName: "ball") as? SKSpriteNode
+        
+        ball?.physicsBody?.applyImpulse(CGVector(dx: -20, dy: 20))
+        
+        //adding a border for testing purposes
+        let border = SKPhysicsBody(edgeLoopFrom: self.frame)
+        
+        border.friction = 0
+        border.restitution = 1
+        
+        self.physicsBody = border
+        
         angle = .pi/2
     }
     
